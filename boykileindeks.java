@@ -11,6 +11,6 @@ public class boykileindeks {
         double kilo=klavye.nextDouble();
 
         double indeks=kilo/boy*boy;
-        System.out.println("Vicut İndeksiniz:"+indeks);
+        System.out.println("Vücut İndeksiniz:"+indeks);
     }
 }
