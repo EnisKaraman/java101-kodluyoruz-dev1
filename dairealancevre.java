@@ -12,8 +12,8 @@ public class dairealancevre {
         alan=pi*r*r;
         cevre=2*pi*r;
 
-        System.out.println("Dairenin Alanı:"+alan);
-        System.out.println("Dairenin Çevresi:"+cevre);
+        System.out.println("Dairenin Alanı:"+alan+"cm\u00B2");
+        System.out.println("Dairenin Çevresi:"+cevre+"cm");
 
         System.out.println("Dairenin Merkez Açısını Giriniz:");
         double a=klavye.nextDouble();
