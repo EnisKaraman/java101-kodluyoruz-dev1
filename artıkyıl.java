@@ -7,7 +7,7 @@ public class artıkyıl {
          System.out.print("Yılı Giriniz:");
          int yil=klavye.nextInt();
           if (yil%4==0||yil%400==0) {
-              System.out.println(yil+" Nir Artık Yıldır!");   
+              System.out.println(yil+" Bir Artık Yıldır!");   
          }
           else {
               System.out.println(yil+" Bir Artık Yıl Değildir!");
