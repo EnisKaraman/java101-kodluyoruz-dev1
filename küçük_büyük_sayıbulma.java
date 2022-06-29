@@ -1,18 +1,12 @@
 import java.util.*;
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author enisk
- */
 public class küçük_büyük_sayıbulma {
     public static void main(String[] args) {
         Scanner klavye=new Scanner(System.in);
+        
         int kucuk=0;
         int buyuk=0;
+        
         System.out.println("Kaç Adet Sayı Gireceksiniz:");
         int adet=klavye.nextInt();
         
