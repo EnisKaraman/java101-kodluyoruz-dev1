@@ -28,7 +28,7 @@ public class Employee {
        bonus=30*(this.workHours - 40);      
       }
       else{
-       bonus=10;
+       bonus=0;
       }
       return bonus;
   }
