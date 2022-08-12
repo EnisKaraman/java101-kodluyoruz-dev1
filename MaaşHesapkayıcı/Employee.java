@@ -48,7 +48,7 @@ public class Employee {
       bonus();
       raiseSalary();
       tax();
-      System.out.println("Adı: "+this.name+"\nMaaşı: "+this.salary+"\nÇalışma Saati: "+this.workHours+"\nBaşlangıç Yılı: "+this.hireYear+"\nVergi: "+tax+"\nBonus: "+bonus+"\nMaaş Artışı: "+maas+"\nVergi ve Bonuslar ile Maaş: "+(this.salary+bonus-tax)+"\nToplam Maaş: "+(this.salary+bonus+maas-tax)+"\n---------------------------------------------\n");   
+      System.out.println("Adı: "+this.name+"\nMaaşı: "+this.salary+"\nÇalışma Saati: "+this.workHours+"\nBaşlangıç Yılı: "+this.hireYear+"\nVergi: "+tax+"\nBonus: "+bonus+"\nMaaş Artışı: "+maas+"\nVergi ve Bonuslar ile Maaş: "+(this.salary+bonus-tax)+"\nToplam Maaş: "+(this.salary+bonus+maas-tax)+"\n=====================================");   
   }
   
 }
