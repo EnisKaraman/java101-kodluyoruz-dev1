@@ -19,13 +19,12 @@ public class DizideTekrarEdenÇiftSayıBulma {
         
         for (int i = 0; i < liste.length; i++) {
             for (int j = 0; j < liste.length; j++) {
-                if ( (i != j) && (liste[i]==liste[j]) ) {
-                    if (liste[i] % 2 == 0){
-                        if (!isFind(cliste, liste[i])) {
-                           cliste[sayac++]=liste[i];                             
-                        }
-                        break; 
-                    }                   
+                if ( (i != j) && (liste[i]==liste[j]) && (liste[i] % 2 == 0) ) {
+                    if (!isFind(cliste, liste[i])) {
+                      cliste[sayac++]=liste[i];                             
+                    }
+                    break; 
+                                      
                 }                
             }
         }
